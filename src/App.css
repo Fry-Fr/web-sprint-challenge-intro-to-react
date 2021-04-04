@@ -1,8 +1,15 @@
 .App {
+  background: rgba(245, 222, 179, 0.363);
   text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  text-decoration: 10px overline underline;
 }
 /* write your parent styles in here for your App.js */

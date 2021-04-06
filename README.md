@@ -37,7 +37,8 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 1. Describe props.
     props is the data or data properties that gets passed into the children components
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
-    side effects are anything that effects something outside the scope of the functions
+    side effects are anything that effects something outside the scope of the function. UseEffect takes a call back
+then empty square brackets to useEffect only once after the first render or put inside the square brackets variables this will watch for changes in state and sync to the component.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
